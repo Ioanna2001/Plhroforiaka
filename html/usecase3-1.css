@@ -1,11 +1,13 @@
 body {background-color: #e6e6e6;}
-#first{background-color: white;}
+#first{background-color: #fff4f4bd;}
 #second{background-color: white;}
 #third{background-color: white;}
 #fourth{background-color: white;}
 #fifth{background-color: white;}
 #sixth{background-color: white;}
 #logo{position: relative; left: 1cm;}
+footer{background-color: #663300; width: 100%; height: 3cm; color:white; text-indent: 0.5cm;position: absolute; bottom:0}
+#contact_inf{position: relative; top:0.5cm;}
 .topnav {
     background-color: #e6e6e6;
     overflow: visible;
