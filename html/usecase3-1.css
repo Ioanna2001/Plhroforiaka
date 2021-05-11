@@ -1,0 +1,33 @@
+body {background-color: #e6e6e6;}
+#first{background-color: white;}
+#second{background-color: white;}
+#third{background-color: white;}
+#fourth{background-color: white;}
+#fifth{background-color: white;}
+#sixth{background-color: white;}
+#logo{position: relative; left: 1cm;}
+.topnav {
+    background-color: #e6e6e6;
+    overflow: visible;
+  }
+#partners{position:relative; margin: 0.25cm;}
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color:black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color:#802b00;
+  }
