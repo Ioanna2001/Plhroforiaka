@@ -22,7 +22,30 @@
       </div>
        <img id = "logo" src ="./images/home aivalis-winery-logo.png" alt = "logo">
       <!--Partners-->
-        <h2 id = "partners"><b>Our Partners</b><img src = "./images/Screenshot 2021-05-11 130342.png" alt = "add" width="27.3" height="28.6"></h2>
+        
+        <h2 id = "partners"><b>New Partner</b><button type="button" style="background-color:transparent; border-color: transparent;"><img src = "./images/Screenshot 2021-05-11 130342.png" alt = "add" width="27.3" height="28.6"></button></h2>
+        <div class="popup" id="popup-1">
+            <div class="content">
+             <div class="close-btn" onclick="togglePopup()">×</div>
+         
+              <h1>New Entry</h1>
+                <div class="input-field"><input value="DATE" ="text" class="validate"></div>
+                <div class="input-field"><input value="PRICE" ="text" class="validate"></div>
+                <div class="input-field"><input value="PRODUCT" ="text" class="validate"></div>
+                <div class="input-field"><input value="AMOUNT" ="text" class="validate"></div>
+    
+                <button class="second-button">SUBMIT</button>
+             </div>
+        </div>
+      
+        <button onclick="togglePopup()" class="first-button">+</button>
+        <script>
+            function togglePopup() {
+                 document.getElementById("popup-1")
+                   .classList.toggle("active");
+                   }
+        </script>
+           </div>
         <div class = "container">
             <div class="row">
                 <div class="col-xs-3 col-xs-6">
